@@ -9,18 +9,24 @@ The student will create two namespaces (dev and staging). They will deploy a two
 ---
 ## Build Instructions for Students
 
-The students will need to build these Docker images before deploying to Kubernetes. Provide them with these build commands:
+The students will need to build these Docker images before deploying to Kubernetes. build commands:
 
-```bash
+
 # Build backend image
+```bash
 docker build -f Dockerfile.backend -t backend-app:latest .
+```
 
 # Build frontend image
+```
 docker build -f Dockerfile.frontend -t frontend-app:latest .
+```
 
 # If using minikube, load the images
+```
 minikube image load backend-app:latest
 minikube image load frontend-app:latest
+```
 
 --- 
 
