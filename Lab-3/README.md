@@ -53,7 +53,7 @@ minikube image load frontend-app:latest
 - Both applications display their pod name and namespace for easy identification when testing environment isolation
 
 --- 
->[!IMPORTANT] Required Deliverables
+>[!NOTE] Required Deliverables
 * Push your Puplic GitHub Repo to LMS
 # The repository should be structured as follows:
 1. dev-environment.yaml
